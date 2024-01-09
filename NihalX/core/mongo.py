@@ -11,7 +11,7 @@ TEMP_MONGODB = "mongodb+srv://anonxmusic:anonxmusic@anonx.9v4i8.mongodb.net/?ret
 
 if config.MONGO_DB_URI is None:
     LOGGER(__name__).warning(
-        "Your bot will work on @Mr_Nihal9 mongo database..."
+        "Your bot will work on @L2R_KING0 mongo database..."
     )
     temp_client = Client(
         "NihalX",
