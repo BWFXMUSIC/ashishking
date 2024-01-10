@@ -15,45 +15,24 @@
     "env":  {
       "BOT_TOKEN": {
         "description": "A Bot's token from @Botfather",
-        "value": "",
+        "value": "•ʙω͠ғ•ᴍᴜsɪᴄ💌 V3🥀",
         "required": true
-      },
-      "MONGO_DB_URI": {
-        "description": "Get a mongodb url from https://cloud.mongodb.com.",
-        "value": "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority",
-        "required": false
-      },
-      "MUSIC_BOT_NAME": {
-        "description": "A name for your Music Bot. You can use special characters bot ko jhaat farak ni padega",
-        "value": "Assistant",
-        "required": false
       },
       "OWNER_ID": {
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
         "value": "6052880487",
-        "required": true
-      },
-      "STRING_SESSION": {
-        "description": "A Pyrogram String Session. One Assistant is Compulsory.",
-        "value": "",
-        "required": true
-      },
-      "HEROKU_API_KEY": {
-        "description": "Your Heroku account's API key",
-        "value": "",
         "required": false
       },
-      "HEROKU_APP_NAME": {
-        "description": "Your heroku app/bot's name",
-        "value": "",
+      "STRING_SESSION": {
+        "description": "A Pyrogram String Session. One Assistant is Compulsory",
+        "value": "👻sᴛꝛɪɴɢV3💨",
         "required": false
       },
       "LOG_GROUP_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights in Log group.",
         "value": "-1001822336951",
         "required": true
-      }
-    },
+      },
     "buildpacks": [
           {
               "url": "heroku/python"
