@@ -32,7 +32,8 @@
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights in Log group.",
         "value": "-1001822336951",
         "required": true
-      },
+      }
+    },
     "buildpacks": [
           {
               "url": "heroku/python"
