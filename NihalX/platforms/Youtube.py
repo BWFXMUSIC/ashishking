@@ -4,7 +4,7 @@ import re
 from typing import Union
 
 import aiohttp
-import yt-dlp=2023.12.30
+import yt_dlp
 from pyrogram.types import Message
 from youtubesearchpython.__future__ import VideosSearch
 
