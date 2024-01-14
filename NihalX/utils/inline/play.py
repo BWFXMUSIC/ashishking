@@ -40,7 +40,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="✨ 𝐎ωиєя ⏎", url=f"https://t.me/L2R_KING0"
+                text="✨ 𝐎ωиєя ⏎", url=f"{OWNER_ID}"),
             ),
         ],
         [
