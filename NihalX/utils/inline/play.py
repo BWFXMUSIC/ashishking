@@ -68,7 +68,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(text="✨ 𝐎ωиєя ⏎", url=f"https://t.me/L2R_KING0"),
+            InlineKeyboardButton(text="✨ 𝐎ωиєя ⏎", url=f"tg://openmessage?user_id={OWNER_ID}",
         ],
         [
             InlineKeyboardButton(
